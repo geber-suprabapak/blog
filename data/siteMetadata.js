@@ -2,8 +2,8 @@
 const siteMetadata = {
   title: 'Skanida Apps Team',
   author: 'Tim Skanida Apps',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  headerTitle: 'Skanida Apps Team Blog',
+  description: 'Blog resmi tim developer Skanida Apps.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -48,11 +48,6 @@ const siteMetadata = {
     // googleAnalytics: {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
-  },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus, beehive
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
   },
   search: {
     provider: 'kbar', // kbar or algolia
