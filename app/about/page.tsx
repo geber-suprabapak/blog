@@ -9,14 +9,16 @@ export const metadata = genPageMetadata({ title: 'About' })
 export default function Page() {
   return (
     <>
-      {allAuthors.map((author) => {
-        const mainContent = coreContent(author)
-        return (
-          <AuthorLayout key={author.slug} content={mainContent}>
-            <MDXLayoutRenderer code={author.body.code} />
-          </AuthorLayout>
-        )
-      })}
+      {allAuthors
+        .filter((author) => author.slug !== 'default')
+        .map((author) => {
+          const mainContent = coreContent(author)
+          return (
+            <AuthorLayout key={author.slug} content={mainContent}>
+              <MDXLayoutRenderer code={author.body.code} />
+            </AuthorLayout>
+          )
+        })}
     </>
   )
 }
