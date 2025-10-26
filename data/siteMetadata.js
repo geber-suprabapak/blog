@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'Blog resmi tim developer Skanida Apps.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://geber-suprabapak.github.io/blog',
   siteRepo: 'https://github.com/geber-suprabapak/blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
